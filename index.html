@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Cristina's Personal Website</title>
+  <!-- NOTE: CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/query.css">
+
+  <!-- NOTE: Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- NOTE: Favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- NOTE: Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@600&family=Niconne&family=Sacramento&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <!-- NOTE: Font Awesome -->
+  <script src="https://kit.fontawesome.com/73d1381af4.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js">
+  </script>
+
+</head>
+
+<body>
+  <section class="container-top">
+
+    <div class="row header">
+      <div class="col-lg-6 col-md-12">
+        <img class="cristina" src="img/cristina.png" alt="Picture of Cristina" width="150px">
+      </div>
+      <div class="col-lg-6 col-md-12">
+        <nav class="nav">
+          <a id="a" href="#about">About</a>
+          <a id="a" href="#skills">Skills</a>
+          <a id="a" href="#work">Work</a>
+        </nav>
+      </div>
+
+      <div class="row contents">
+        <div class="col-lg-4">
+          <img class="cloud1" src="img/cloud.png" alt="cloud image" width="200px">
+        </div>
+
+        <div class="col-lg-4 intro">
+          <h1 class="h1-top">I am Cristina.</h1>
+          <p class="p-top">a web developer.</p>
+        </div>
+        <div class="col-lg-4">
+          <img class="cloud2" src="img/cloud.png" alt="cloud image" width="200px">
+        </div>
+      </div>
+    </div>
+    <img class="sun" src="img/sun.png" alt="image of sun">
+  </section>
+
+  <div class="side-menu">
+    <a class="a" href="https://github.com/MeowIT" target="_blank"><img src="img/github.png" alt="github logo" width="60rem"> </a>
+    <a class="a" href="https://www.linkedin.com/in/cristina-mavroian-88045b1b4/" target="_blank"><img src="img/linkedin.png" alt="linkedin logo" width="60rem"> </a>
+    <a  class="a" href="contact.html" target="_blank" ><img src="img/notebook-of-contacts.png" alt="notebook-of-contacts" width="60rem">  </a>
+  </div>
+
+
+
+  <section id="about" class="container-about">
+    <img src="img/bitmoji-cris.png" alt="cartoon character of Cristina" width="200px">
+    <hr class="hr-top" size="3" noshade>
+    <h1 class="h1-middle">Hi!</h1>
+
+    <p class="p-middle">It is so nice to meet you, you already know my name, now let me tell you some things about myself! I was born in Bucharest and I am 23 years old, I live a quiet life,
+      I love swimming and reading but most of all spending time with my family, now that we are on the subject, I have a 2 year old daughter ( I bet you feel a bit sorry for me now, she is a handfull) and honestly she is the main reason I started
+      programing, I never tought I was capable of it, or like it but she made me become a better version of myself, and with a LOT of help from my brother that is a Software Engineer 👩🏻‍💻 my journey started. I am so excited to see where it will
+      take me!
+    </p>
+  </section>
+
+  <section id="skills">
+    <div class="container-fluid">
+      <div class="row ">
+        <div class="col-lg-4 col-xs-6">
+          <i class="fas fa-file-code fa-7x"></i>
+          <h3 class="small-title">Development.</h3>
+          <p class="p-middle">As a self-taught full-stack developer, I write clean and responsive code.</p>
+        </div>
+        <div class="col-lg-4 col-xs-6">
+          <i class="fas fa-utensils fa-7x"></i>
+          <h3 class="small-title">Recipes.</h3>
+          <p class="p-middle">I make the meanest carbonara, you are invited to try anytime.</p>
+        </div>
+
+        <div class="col-lg-4 col-xs-6">
+          <i class="fas fa-grin-beam-sweat fa-7x"></i>
+          <h3 class="small-title"> Funny.</h3>
+          <p class="p-middle">I am not sure if this is a skill, but I can make you laugh hard.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="work">
+    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+          <img src="img/website1.jpg" class="d-block w-100" alt="website1">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="img/website2.jpg" class="d-block w-100" alt="website2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/website3.jpg" class="d-block w-100" alt="website3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <footer>
+    <p class="footer-txt">Made with ❤️ @MeowIT</p>
+    <div class='grass'>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+      <div class='blade'></div>
+  </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,43 @@
+@media (max-width: 1042px) {
+
+  /* NOTE: Container-top */
+  .cristina {
+    left: 37%;
+  }
+
+  .nav {
+    left: 30%;
+    top: 5vh;
+    height: 1rem;
+  }
+
+  /* NOTE: Container-contents */
+  .contents {
+    padding: 0;
+  }
+
+  .container-top {
+    height: 78.8rem;
+    }
+
+  .cloud1 {
+    visibility: hidden;
+  }
+
+  .cloud2 {
+    position: static;
+    margin-left: 35%;
+  }
+
+  .sun {
+    position: absolute;
+    bottom:30rem;
+    left: 10rem;
+    width: 40rem;
+  }
+
+  /* NOTE: About Me */
+  .p-middle {
+    left: 15%;
+  }
+}

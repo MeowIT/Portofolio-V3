@@ -2,7 +2,7 @@
 
   /* NOTE: Container-top */
   .cristina {
-    left: 37%;
+    left: 40%;
   }
 
   .nav {
@@ -17,7 +17,7 @@
   }
 
   .container-top {
-    height: 78.8rem;
+    height: 50rem;
     }
 
   .cloud1 {
@@ -25,15 +25,8 @@
   }
 
   .cloud2 {
-    position: static;
-    margin-left: 35%;
-  }
-
-  .sun {
-    position: absolute;
-    bottom:30rem;
-    left: 10rem;
-    width: 40rem;
+    margin: auto;
+    bottom: 20rem;
   }
 
   /* NOTE: About Me */

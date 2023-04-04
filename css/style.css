@@ -61,6 +61,7 @@ body {
 
 .cristina {
   position: relative;
+  border-radius: 20%;
   left: 10%;
 }
 
@@ -93,12 +94,6 @@ body {
   margin-right: 20rem;
 }
 
-.sun {
-  position: relative;
-  left: 22rem;
-  bottom: 42.5rem;
-}
-
 /* NOTE: Side Menu */
 .side-menu {
   position: fixed;
@@ -119,7 +114,7 @@ body {
 }
 
 .h1-middle {
-  z-index: 1000; // or any value higher than your other elements
+  z-index: 1000;
   position: absolute;
   left: 0.5%;
   font-family: 'Dosis', sans-serif;
